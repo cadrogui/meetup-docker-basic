@@ -1,0 +1,21 @@
+microservicio_uno:
+  container_name: microservicio_uno
+  image: cadrogui/meetup:latest
+  environment:
+    - TERM=xterm
+    - TZ=America/Santiago
+  volumes:
+    - ./Data:/DataSync
+  ports:
+    - "1337:1337"
+
+microservicio_dos:
+  container_name: microservicio_dos
+  image: cadrogui/meetup:latest
+  environment:
+    - TERM=xterm
+    - TZ=America/Santiago
+  volumes:
+    - ./Data:/DataSync
+  ports:
+    - "1338:1337"

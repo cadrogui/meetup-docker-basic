@@ -1,0 +1,17 @@
+{
+  "name": "meetup-docker",
+  "version": "1.0.0",
+  "description": "App de prueba para ser ejecutada en un contenedor docker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "docker"
+  ],
+  "author": "Mikel Carozzi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
